@@ -1,7 +1,4 @@
 # Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/UbXpRv5ApKA
-
-![sensai](https://github.com/user-attachments/assets/eee79242-4056-4d19-b655-2873788979e1)
 
 ### Make sure to create a `.env` file with following variables -
 
@@ -17,4 +14,30 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
 GEMINI_API_KEY=
+```
+
+## Summary of Commands
+For quick reference, here are all the commands you need to run in order:
+
+# 1. Clone the repo
+```
+git clone https://github.com/piyush-eon/ai-career-coach.git
+```
+# 2. Enter the directory
+```
+cd ai-career-coach
+```
+# 3. Install dependencies
+```
+pnpm install
+```
+# (Create your .env file here)
+
+# 4. Sync the database
+```
+pnpm prisma db push
+```
+# 5. Run the app
+```
+pnpm dev
 ```
